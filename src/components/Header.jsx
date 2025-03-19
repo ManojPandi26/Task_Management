@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link,useLocation } from 'react-router-dom';
-import { useTaskContext } from '../ontexts/TaskContext';
+import { useTaskContext } from '../Contexts/TaskContext';
 
 const Header = () => {
   const { theme, toggleTheme, searchQuery, setSearchQuery } = useTaskContext();
