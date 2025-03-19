@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTaskContext } from '../Contexts/TaskContext';
+import { useTaskContext } from '../contexts/TaskContext';
 
 const TaskItem = ({ task }) => {
   const { toggleComplete, deleteTask, updateTask } = useTaskContext();

@@ -1,7 +1,7 @@
 import React from 'react';
 import TaskForm from '../components/TaskForm';
 import TaskItem from '../components/TaskItem';
-import { useTaskContext } from '../Contexts/TaskContext';
+import { useTaskContext } from '../contexts/TaskContext';
 
 const TaskList = () => {
   const { 

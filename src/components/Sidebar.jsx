@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { useTaskContext } from '../Contexts/TaskContext';
+import { useTaskContext } from '../contexts/TaskContext';
 const Sidebar = () => {
   const { getOverdueTasks, getTasksDueToday } = useTaskContext();
   
