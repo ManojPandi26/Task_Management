@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTaskContext } from '../contexts/TaskContext';
+import { useTaskContext } from '../context/TaskContext';
 
 const Analytics = () => {
   const { getTaskStats, tasks } = useTaskContext();

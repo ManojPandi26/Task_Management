@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { TaskProvider } from './contexts/TaskContext';
+import { TaskProvider } from './context/TaskContext';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import Dashboard from './pages/Dashboard';
-import TaskList from './pages/TaskList';
-import Analytics from './pages/Analytics';
-import Settings from './pages/Settings';
+import Dashboard from './page/Dashboard';
+import TaskList from './page/TaskList';
+import Analytics from './page/Analytics';
+import Settings from './page/Settings';
 import './App.css';
 
 function App() {

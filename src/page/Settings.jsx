@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTaskContext } from '../contexts/TaskContext';
+import { useTaskContext } from '../context/TaskContext';
 
 const Settings = () => {
   const { categories, addCategory, deleteCategory, theme, toggleTheme } = useTaskContext();

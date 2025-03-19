@@ -1,7 +1,7 @@
 import React from 'react';
 import TaskForm from '../components/TaskForm';
 import TaskItem from '../components/TaskItem';
-import { useTaskContext } from '../contexts/TaskContext';
+import { useTaskContext } from '../context/TaskContext';
 
 const Dashboard = () => {
   const { getTasksDueToday, getOverdueTasks, getFilteredTasks } = useTaskContext();
